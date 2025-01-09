@@ -6,7 +6,7 @@ from PIL import Image
 from stability_sdk import client
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 os.environ['STABILITY_HOST'] = 'api.stability.ai/v2beta/stable-image/generate/ultra'
-os.environ['STABILITY_KEY'] = 'sk-vC3SlsoDRZOSexgT2QzoBlPBy7Tz6IY4ufF1qd2Ku7vaQZaO'
+os.environ['STABILITY_KEY'] = 's'
 
 
 import json
